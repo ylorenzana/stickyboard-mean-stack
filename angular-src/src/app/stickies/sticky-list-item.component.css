@@ -1,0 +1,50 @@
+.sticky {
+  background-color:#FFFFA5;
+  text-align: center;
+  font-family: "myriad-pro", sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 50px;
+  margin-bottom: .9375rem;
+  margin-top: .9375rem;
+  box-sizing: content-box;
+  -webkit-box-shadow: 9px 9px 9px -9px rgba(41,37,41,0.57);
+  -moz-box-shadow: 9px 9px 9px -9px rgba(41,37,41,0.57);
+  box-shadow: 9px 9px 9px -9px rgba(41,37,41,0.57);
+  word-wrap: break-word;
+}
+
+#trash {
+  font-size: 17px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 3.5px;
+}
+
+#check {
+  color: #8a8a8a;
+  font-size: 17px;
+  position: absolute;
+  top: 0;
+  right: 16.5px;
+  margin: 3.5px;
+}
+
+#check:hover {
+  color: #0a0a0a;
+}
+
+.checked {
+  color: #0a0a0a;
+}
+
+.completed {
+  background-color: rgba(206, 206, 206,0.4);
+  color: rgb(170, 170, 170);
+  box-shadow: none;
+}
+
+.completed span {
+   text-decoration: line-through;
+}

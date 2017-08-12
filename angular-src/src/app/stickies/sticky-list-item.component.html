@@ -1,0 +1,5 @@
+<div class="callout sticky" [class.completed]="sticky.isCompleted">
+  <span>{{sticky.text}}</span>
+  <button class="close-button" id="trash" (click)="removeSticky(sticky)"><i class="fi-trash"></i></button>
+  <button class="close-button" id="check" [class.checked]="sticky.isCompleted" (click)="toggleComplete(sticky)"><i class="fi-check"></i></button>
+</div>

@@ -1,0 +1,10 @@
+<header class="row header">
+  <div class="column text-center">
+    <img id="logo" title="Special thanks to Gabriel Alvarez for the logo" src="assets/stickyboard-logo.png">
+    <span class="clear-button-alert small close-button"><a [routerLink]="['login']" (click)="logoutUser()">logout</a></span>
+    <div class="input-group">
+      <span id="clear" class="input-group-label" title="Delete all" (click)="removeAllStickies()"><i class="fi-trash"></i></span>
+      <input id="sticky-input" class="input-group-field" type="text" placeholder="What is your main focus for today?" autofocus="" [(ngModel)]="newSticky.text" (keyup.enter)="addSticky()"/>
+    </div>
+  </div>
+</header>

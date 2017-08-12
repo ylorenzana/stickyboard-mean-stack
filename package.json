@@ -1,0 +1,31 @@
+{
+  "name": "stickyboard-mean-stack",
+  "version": "1.0.0",
+  "description": "todo list app built on the MEAN stack.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "8.1.4"
+  },
+  "author": "yang lorenzana",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
+    "jsonwebtoken": "^7.4.1",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.11.5",
+    "validator": "^8.0.0"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.5.0",
+    "nodemon": "^1.11.0",
+    "supertest": "^3.0.0"
+  }
+}

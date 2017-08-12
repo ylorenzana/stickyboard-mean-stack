@@ -1,0 +1,22 @@
+#clear {
+  font-size:25px;
+  color: #8a8a8a;
+}
+
+#clear:hover {
+  color: #0a0a0a;
+}
+
+#sticky-input{
+  font-family: "myriad-pro", sans-serif;
+  font-weight: 300;
+}
+
+.close-button a { 
+  color: #e22626;
+}
+
+#logo {
+  width: 500px;
+  margin-bottom: 1rem;
+}

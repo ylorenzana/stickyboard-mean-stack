@@ -1,0 +1,17 @@
+<div class="row header">
+  <div class="column text-center">
+    <form class="callout text-center" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+      <h1>Login</h1>
+      <div class="floated-label-wrapper">
+        <label for="email">Email</label>
+        <input type="email" id="email" class ="form-control" formControlName="email" placeholder="Email">
+      </div>
+      <div class="floated-label-wrapper">
+        <label for="pass">Password</label>
+        <input type="password" id="pass" class ="form-control" formControlName="password" placeholder="Password">
+      </div>
+      <input class="button expanded" type="submit" [disabled]="!loginForm.valid" value="Login">
+      <span><a [routerLink]="['/register']">No account? Register here.</a></span>
+    </form>
+  </div>
+</div>

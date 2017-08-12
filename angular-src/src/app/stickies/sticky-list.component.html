@@ -1,0 +1,5 @@
+<div class="row small-up-1 medium-up-5 large-up-6" *ngIf='stickies.length > 0'>
+  <div class="column" *ngFor = "let sticky of stickies" [class.completed]="sticky.isCompleted">
+    <sb-sticky-list-item [sticky]="sticky" (toggleStickyComplete)="onToggleComplete($event)" (remove)="onRemoveSticky($event)"></sb-sticky-list-item>
+  </div>
+</div>
