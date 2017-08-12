@@ -1014,7 +1014,7 @@ var Sticky = (function () {
 // The file contents for the current environment will overwrite these during build.
 var environment = {
     production: false,
-    apiUrl: 'http://localhost:1337'
+    apiUrl: ''
 };
 //# sourceMappingURL=environment.js.map
 
